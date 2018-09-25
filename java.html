@@ -6,20 +6,13 @@
 		<meta charset="utf-8">
   		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="bootstrap-3.3.7/dist/css/bootstrap.min.css"/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
-    	<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
-    	<style>
+		<style>
 		.center {
 		    text-align: center;
 		}
-		img {
-    		display: block;
-    		margin-left: auto;
-    		margin-right: auto;
-    		width: 50%;
-		}
 		</style>
+    	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    	<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js	"></script>
 	</head>
 	<body>
 		<nav class="navbar navbar-inverse navbar-static-top">
@@ -44,19 +37,31 @@
 				</div>
 			</div>
 		</nav>
-
 		<div class="container">
-		  <div class="jumbotron">
-		    <h1 class = "center">Ruarai Eoin O'Tighearnaigh</h1>
-		    <img src="doc/TechTower.jpg" class="img-circle" class = "img" alt="Cinque Terre">
-		    <p class = "center">Computer Science Undergraduate Student at Georgia Institute of Technology.</p> 
-		  </div>
+			<div class="panel-group">
+				<div class = "row">
+					<div class ="col-md-4 col-xs-6"">
+			 		 <div class="panel panel-default center">
+			  			<div class="panel-heading">Project Gutenberg Word Cloud Generator</div>
+			  			<div class="panel-body">
+			  				<p><h5>Class Project at the Ohio State University</h5>
+			  				Java program which taken in a book from project gutenberg and outputes a HTML wordcloud of the most common words scaled my occurence rate.</p>
+			  				<a href="http://web.cse.ohio-state.edu/software/2231/web-sw2/assignments/projects/tag-cloud-generator/tag-cloud-generator1.html" class="btn btn-primary">Official Description</a>
+			  			</div>
+					  </div>
+					</div>
+					<div class ="col-md-4 col-xs-6"">
+					  <div class="panel panel-default center">
+					  	<div class="panel-heading">Test Bed application</div>
+					  	<div class="panel-body">
+					  		<p><h5>Testing bed for features that may be included in other apps</h5>
+					  		Android application which included features and frameworks that may be used later in other apps.</p>
+					  		<a href= "https://github.com/REOTyranny/TestBedApp" class="btn btn-primary">Github Link</a>
+					  	</div>
+					  </div>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="center" class="container">
-			<button class="btn btn-inverse btn-lg" onclick="window.location.href='https://github.com/REOTyranny'"><i class="fa fa-github"></i> Github</button>
-			<button class="btn btn-inverse btn-lg" onclick="window.location.href='https://linkedin.com/in/reot'"><i class="fa fa-linkedin"></i> LinkedIn</button>
-			<button class="btn btn-inverse btn-lg" onclick="window.location.href='doc/resume.pdf'"><i class="fa fa-file"></i> Resume</button>
-		</div>
-		
 	</body>
 </html>
